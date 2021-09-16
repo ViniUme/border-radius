@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <!--fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORDER RADIUS</title>
+
+    <script src="script.js"></script>
+</head>
+<body onload="Carregar()">
+    <header class="index-header">border radius</header>
+    <div class="conteiner">
+
+
+        <input type="text" value="0" id="input-left-top" class="input" oninput="Carregar()">
+        <input type="text" value="0" id="input-left-bottom" class="input" oninput="Carregar()">
+        <input type="text" value="0" id="input-right-top" class="input" oninput="Carregar()">
+        <input type="text" value="0" id="input-right-bottom" class="input" oninput="Carregar()">
+
+
+        <section class="section-border" id="section-border">
+
+            <section class="section-code">
+                <span class="code-text" id="code-radius"></span><br>
+                <span class="code-text" id="code-tl_radius"></span><br>
+                <span class="code-text" id="code-tr_radius"></span><br>
+                <span class="code-text" id="code-bl_radius"></span><br>
+                <span class="code-text" id="code-br_radius"></span><br>
+            </section>
+
+            <div class="div-checkbox">
+                <input type="checkbox" id="checkbox-css" checked="true"><span class="checkbox-text" for="checkbox-css">CSS3</span>
+            </div>
+
+        </section>
+
+
+    </div>
+    <footer>ft. @ViniUme</footer>
+</body>
+</html>
