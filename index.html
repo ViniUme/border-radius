@@ -12,32 +12,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BORDER RADIUS</title>
-
-    <script src="script.js"></script>
+    
 </head>
-<body onload="Carregar()">
+<body>
     <header class="index-header">border radius</header>
     <div class="conteiner">
 
 
-        <input type="text" value="0" id="input-left-top" class="input" oninput="Carregar()">
-        <input type="text" value="0" id="input-left-bottom" class="input" oninput="Carregar()">
-        <input type="text" value="0" id="input-right-top" class="input" oninput="Carregar()">
-        <input type="text" value="0" id="input-right-bottom" class="input" oninput="Carregar()">
+        <input type="text" id="input-top-left" class="input" oninput="Input('input-top-left')">
+        <input type="text" id="input-bottom-left" class="input" oninput="Input('input-bottom-left')">
+        <input type="text" id="input-top-right" class="input" oninput="Input('input-top-right')">
+        <input type="text" id="input-bottom-right" class="input" oninput="Input('input-bottom-right')">
 
 
         <section class="section-border" id="section-border">
 
             <section class="section-code">
                 <span class="code-text" id="code-radius"></span><br>
-                <span class="code-text" id="code-tl_radius"></span><br>
-                <span class="code-text" id="code-tr_radius"></span><br>
-                <span class="code-text" id="code-bl_radius"></span><br>
-                <span class="code-text" id="code-br_radius"></span><br>
+                <span class="code-text" id="code-input-top-left"></span><br>
+                <span class="code-text" id="code-input-top-right"></span><br>
+                <span class="code-text" id="code-input-bottom-left"></span><br>
+                <span class="code-text" id="code-input-bottom-right"></span><br>
             </section>
 
             <div class="div-checkbox">
-                <input type="checkbox" id="checkbox-css" checked="true"><span class="checkbox-text" for="checkbox-css">CSS3</span>
+                <input type="checkbox" id="checkbox-css" checked="true"><label class="checkbox-text" for="checkbox-css">CSS3</label>
             </div>
 
         </section>
@@ -45,5 +44,6 @@
 
     </div>
     <footer>ft. @ViniUme</footer>
+    <script src="script.js"></script>
 </body>
 </html>

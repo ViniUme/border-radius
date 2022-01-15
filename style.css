@@ -74,26 +74,29 @@ footer{
 }
 .input{
     position: absolute;
-    width: 25px;
+    width: 35px;
+    height: 25px;
+    text-align: center;
     font-size: 16px;
     color: white;
     background-color: #ffffff00;
-    border: solid rgb(10, 10, 10) 1px;
+    border: solid #c4c4c4 2px;
+    outline: none;
 }
 
-#input-left-top{
+#input-top-left{
     top: 0;
     left: 0;
 }
-#input-left-bottom{
+#input-bottom-left{
     bottom: 0;
     left: 0;
 }
-#input-right-top{
+#input-top-right{
     top: 0;
     right: 0;
 }
-#input-right-bottom{
+#input-bottom-right{
     bottom: 0;
     right: 0;
 }
